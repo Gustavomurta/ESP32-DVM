@@ -1,9 +1,9 @@
 
 # ESP32 DVM - ESP32 Elektor Design Contest 2018 #
 
- https://www.elektormagazine.com/labs/contest/esp32-design-contest-2018
+https://www.elektormagazine.com/labs/contest/esp32-design-contest-2018
  
-ESP32 - Microcontrolled Digital Voltmeter using old style ADC conversion method.
+FIRST low-cost ESP32 Microcontrolled Digital Voltmeter that REALLY measures Negative Voltagesusing old style ADC conversion method ! With accuracy !
 
 High precision, good stability , negative and positive Voltages !
 
