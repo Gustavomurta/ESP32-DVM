@@ -3,7 +3,7 @@
 
  https://www.elektormagazine.com/labs/contest/esp32-design-contest-2018
  
-ESP32 - Digital Voltmeter using old style ADC conversion method.
+ESP32 - Microcontrolled Digital Voltmeter using old style ADC conversion method.
 
 High precision, good stability , negative and positive Voltages !
 
