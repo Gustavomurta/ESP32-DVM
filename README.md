@@ -3,7 +3,7 @@
 
 https://www.elektormagazine.com/labs/contest/esp32-design-contest-2018
  
-FIRST low-cost ESP32 Microcontrolled Digital Voltmeter that REALLY measures Negative Voltagesusing old style ADC conversion method ! With accuracy !
+FIRST low-cost ESP32 Microcontrolled Digital Voltmeter that REALLY measures Negative Voltages, using old style ADC conversion method ! With accuracy !
 
 High precision, good stability , negative and positive Voltages !
 
