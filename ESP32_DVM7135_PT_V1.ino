@@ -35,10 +35,10 @@
 
 
 byte Digit5, Digit4, Digit3, Digit2, Digit1 = 0;  // Digits of TLC7135
-byte pcfData = 0;
-int DigitCount = 0 ;
-char Signal ;
-float Voltage = 0;
+byte pcfData = 0;                                 // PCF8574 data 
+int DigitCount = 0 ;                              // PCF8574 5 digits 
+char Signal ;                                     // voltage reading polarity 
+float Voltage = 0;                                // voltage reading
 
 void setup()
 {
@@ -68,7 +68,7 @@ void ReadData ()
   pcfData = Wire.read();          // Byte Read
 }
 
-void PrintData ()
+void PrintData ()                    // display of 5 digits only used for test
 {
   Serial.print(" TLC7135 Data = ");
   Serial.print(Signal);              // Signal Plus or Minus
@@ -109,14 +109,14 @@ void PrintVoltage ()
 {
   Voltage = ((Digit5 * 10000) + (Digit4 * 1000) + (Digit3 * 100) + (Digit2 * 10) + Digit1) / 10000.0 ;
   Serial.print("   Voltage = ");
-  Serial.print(Signal);
-  Serial.println(Voltage, 3);
+  Serial.print(Signal);                // print of polarity
+  Serial.println(Voltage, 3);          // print of only 3 decimal digits
 }
 
 void TestData ()
 {
-  ReadData ();
-  Polarity();
+  ReadData ();                          // reading voltage 
+  Polarity();                           // identifying polarity 
   if ( bitRead(pcfData, 4))             // Test if TLC7135 Digit 5 is on (bit 4 of PCF8574)
   {
     Digit5 = pcfData & 0x0F ;           // Read first Byte
