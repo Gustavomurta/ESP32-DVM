@@ -1,4 +1,4 @@
-/* ESP32 - DVM7135
+/* ESP32 - DVM7135 - Prototype V 1.0
    ESP32 DEVKIT - ARDUINO IDE 1.8.5 - TLC7135 - PCF8574
    Gustavo Murta 19/02/2018
    Use I2C pullup Resistors 3K3 ohms 
