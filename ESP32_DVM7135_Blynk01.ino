@@ -36,9 +36,9 @@
 # define SCLpin 22     // PCF8574 SCL pin14       => GPIO_22
 # define PCF8574 0x20  // PCF8574 Address
 
-char auth[] = "8845d1a752464f4c896ed5e1463c08e3";     // Blynk Application Token key
-char ssid[] = "beloca";                               // Wifi Router name
-char pass[] = "a1b2c3d4e5";                           // Wifi Router password
+char auth[] = "123456789ABCDEFGHIJKLMN";     // Blynk Application Token key
+char ssid[] = "Router SSID";                 // Wifi Router name
+char pass[] = "Router Password";             // Wifi Router password
 
 byte Digit5, Digit4, Digit3, Digit2, Digit1 = 0;  // Digits of TLC7135
 byte pcfData = 0;
