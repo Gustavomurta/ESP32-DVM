@@ -1,12 +1,13 @@
-// ESP32 - DVM7135
+// ESP32 - DVM7135 - Blynk IOT Tests 
 // ESP32 DEVKIT - ARDUINO IDE 1.8.5 - TLC7135 - PCF8574
-// Gustavo Murta 19/02/2018
+// Gustavo Murta 21/03/2018
 // Use I2C pullup Resistors 3K3 ohms
 
 /*Blynk Getting Started Guide -> https://www.blynk.cc/getting-started
   Blynk Documentation -> http://docs.blynk.cc/
   Blynk Sketch generator -> https://examples.blynk.cc/
   Youtube video -> https://youtu.be/8PL2q0f5Bow
+  
 
   BSD 3-Clause Open Source License
   1. Redistributions of source code must retain the above copyright notice, this list of conditions and the
