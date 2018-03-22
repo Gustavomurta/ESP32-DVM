@@ -6,6 +6,7 @@
 /*Blynk Getting Started Guide -> https://www.blynk.cc/getting-started
   Blynk Documentation -> http://docs.blynk.cc/
   Blynk Sketch generator -> https://examples.blynk.cc/
+  Youtube video -> https://youtu.be/8PL2q0f5Bow
 
   BSD 3-Clause Open Source License
   1. Redistributions of source code must retain the above copyright notice, this list of conditions and the
