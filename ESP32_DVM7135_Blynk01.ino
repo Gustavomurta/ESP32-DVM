@@ -3,7 +3,11 @@
 // Gustavo Murta 19/02/2018
 // Use I2C pullup Resistors 3K3 ohms
 
-/*BSD 3-Clause Open Source License
+/*Blynk Getting Started Guide -> https://www.blynk.cc/getting-started
+  Blynk Documentation -> http://docs.blynk.cc/
+  Blynk Sketch generator -> https://examples.blynk.cc/
+
+  BSD 3-Clause Open Source License
   1. Redistributions of source code must retain the above copyright notice, this list of conditions and the
   following disclaimer.
 
@@ -67,7 +71,7 @@ void setup()
   attachInterrupt(digitalPinToInterrupt(STB), TestData, FALLING); // External Interrupt GPIO_4
   Wire.begin (SDApin, SCLpin);           // sda= GPIO_21 /scl= GPIO_22
 
-  Blynk.begin(auth, ssid, pass);   // Blink API begin
+  Blynk.begin(auth, ssid, pass);   // Connecting Blink Cloud Server
 }
 
 void ReadData ()
@@ -79,7 +83,7 @@ void ReadData ()
 
 void PrintData ()
 {
-  Serial.print(" TLC7135 Data = ");
+  Serial.print(" TLC7135 Data = ");  // Print Voltage to adjustments of VRef
   Serial.print(Signal);              // Signal Plus or Minus
   Serial.print(" ");
   Serial.print(Digit5, HEX);
@@ -114,7 +118,7 @@ void Polarity ()
   }
 }
 
-void PrintVoltage ()
+void PrintVoltage ()           // Print Voltage X,XXX
 {
   Voltage = ((Digit5 * 10000) + (Digit4 * 1000) + (Digit3 * 100) + (Digit2 * 10) + Digit1) / 10000.0 ; ;
   Serial.print("   Voltage = ");
@@ -160,14 +164,14 @@ void TestData ()
   //UnderVoltage ();
 }
 
-BLYNK_READ(V0)
+BLYNK_READ(V0)                        
 {
-  Blynk.virtualWrite(V0, Voltage);
-  delay(1000);
+  Blynk.virtualWrite(V0, Voltage);   // Send Voltage Value V0 to Blynk Cloud Server 
+  delay(1000);                       // minimum delay MUST BE 1 second !
 }
 
 
 void loop()
 {
-  Blynk.run();    // Blink API running
+  Blynk.run();    // Blynk  running
 }
