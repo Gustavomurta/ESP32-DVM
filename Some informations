@@ -1,0 +1,26 @@
+The circuit may be powered by 5V / 1A power supply at micro-USB Connector of ESP32 Module. (ex: Smartphone charger). 
+
+Connector CN1 may be used do adapt other circuits, as Voltage divider ou amplifier, Current sensor, ohmmeter, etc.  The program (sketch) was unchanged. 
+
+List of Parts :
+Module - ESP32 DEVKIT 
+DVM - TLC 7135 
+I/O Expander - PCF8574
+Negative Voltage Regulator - ICL7660 
+Voltage Reference - LM336 2.5V
+P1 - 20 K linear pot
+R1 - 2.2 K ohms  1/8W
+R2 - 18 ohms  1/8W
+R3 - 100 K ohms  1/8W
+R4 - 100 K ohms  1/8W
+R5 - 3.3 K ohms  1/8W
+R6 - 3.3 K ohms  1/8W
+C1 - 10 uF /16V 
+C2 - 470nF
+C3 - 470nF Polyester 
+C4 - 1 uF /16V 
+C5 - 1 uF /16V 
+C6 - 470nF
+C7 - 10 uF /16V 
+C8 - 10 uF /16V 
+C9 - 10 uF /16V 
