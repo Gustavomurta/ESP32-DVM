@@ -15,6 +15,9 @@ I choose Blynk because it is easier to implement IOT with ESP32. Not the best, b
 My ESP32 DVM sent voltage values to my Tablet (Blynk application) through the Blynk Cloud Server.
 The sending data rate must be at least 1 value per second. Restriction of the free Blynk server.
 
+Youtube Video - ESP32 DVM7135 Blynk IOT Tests :
+https://youtu.be/8PL2q0f5Bow
+
 You must configure the router's SSID and password in that Sketch.
 The Token Key is what you can get from the Blynk Application configuration.
 
