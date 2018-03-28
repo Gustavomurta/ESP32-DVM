@@ -10,6 +10,7 @@ High precision, good stability , negative and positive Voltages !
 Voltage reading range from -2V to +2V . Method of Voltage measurement - Dual slope integrating ADC conversion.
 
 DVM ESP32 using the Blynk IOT PLataform :
+
 I choose Blynk because it is easier to implement IOT with ESP32. Not the best, but it works!
 My ESP32 DVM sent voltage values to my Tablet (Blynk application) through the Blynk Cloud Server.
 The sending data rate must be at least 1 value per second. Restriction of the free Blynk server.
@@ -18,5 +19,7 @@ You must configure the router's SSID and password in that Sketch.
 The Token Key is what you can get from the Blynk Application configuration.
 
 Blynk Getting Started Guide ->https://www.blynk.cc/getting-started
+
 Blynk Documentation -> http://docs.blynk.cc/
+
 Blynk Sketch generator -> https://examples.blynk.cc/
