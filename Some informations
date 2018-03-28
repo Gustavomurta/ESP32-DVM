@@ -1,6 +1,6 @@
 The circuit may be powered by 5V / 1A power supply at micro-USB Connector of ESP32 Module. (ex: Smartphone charger). 
 
-Connector CN1 may be used do adapt other circuits, as Voltage divider ou amplifier, Current sensor, ohmmeter, etc.  The program (sketch) was unchanged. 
+Connector CN1 may be used do adapt other circuits, as Voltage divider ou amplifier, Current sensor, ohmmeter, etc.   
 
 List of Parts :
 Module - ESP32 DEVKIT 
