@@ -9,6 +9,22 @@ High precision, good stability , negative and positive Voltages !
 
 Voltage reading range from -2V to +2V . Method of Voltage measurement - Dual slope integrating ADC conversion.
 
+-Can measure voltages from -2.000V to +2.000V with accuracy and stability,
+
+-True Differential Input,
+
+-conversion reliability with ±1 in 20,000 count accuracy,
+
+-auto-zero to less than 10μV,
+
+-Guaranteed Zero Reading for 0V Input,
+
+-Indication of Over Voltage, 
+
+-Use only 5 GPIO pins of ESP32,
+
+-Low power ( uses 3.3V Regulator of ESP32 - Current consumption only 3 mA aproximately  ! )
+
 DVM ESP32 using the Blynk IOT PLataform :
 
 I choose Blynk because it is easier to implement IOT with ESP32. Not the best, but it works!
