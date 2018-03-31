@@ -105,7 +105,10 @@ void UnderVoltage ()
 void OverVoltage ()
 {
   if ( bitRead(pcfData, 6))           // Bit6 PCF8574 => Over Voltage
-    Serial.println(" Over Voltage ");
+  {
+    Serial.println("   Over Voltage  ");  // Print 9.9999 Over Voltage
+    Voltage = 9.999;
+  }
 }
 
 void Polarity ()
